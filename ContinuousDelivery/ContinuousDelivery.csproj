@@ -4,6 +4,12 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/3f846fdd-d3e6-4608-b3fc-18f1ffe7133a/resourceGroups/azure-course/providers/microsoft.insights/components/ContinuousDeployment</ApplicationInsightsResourceId>
+    <UserSecretsId>624b2f53-f90a-487d-b85c-82674694eea5</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
 
 </Project>
